@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navigationdrawer.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_help_support"
+        android:name="com.example.navigationdrawer.HelpSupportFragment"
+        android:label="@string/nav_help_support"
+        tools:layout="@layout/fragment_help_support" />
+
+    <fragment
+        android:id="@+id/nav_payment_settings"
+        android:name="com.example.navigationdrawer.PaymentSettingsFragment"
+        android:label="@string/nav_payment_settings"
+        tools:layout="@layout/fragment_payment_settings" />
+
+    <fragment
+        android:id="@+id/nav_order_bookings"
+        android:name="com.example.navigationdrawer.OrderBookingsFragment"
+        android:label="@string/nav_order_bookings"
+        tools:layout="@layout/fragment_order_bookings" />
+
+    <fragment
+        android:id="@+id/nav_profile_settings"
+        android:name="com.example.navigationdrawer.ProfileSettingsFragment"
+        android:label="@string/nav_profile_settings"
+        tools:layout="@layout/fragment_profile_settings" />
+
+    <fragment
+        android:id="@+id/nav_refer_win"
+        android:name="com.example.navigationdrawer.ReferWinFragment"
+        android:label="@string/nav_refer_win"
+        tools:layout="@layout/fragment_refer_win" />
+
+    <fragment
+        android:id="@+id/nav_digilocker"
+        android:name="com.example.navigationdrawer.DigiLockerFragment"
+        android:label="@string/nav_digilocker"
+        tools:layout="@layout/fragment_digi_locker" />
+
+    <fragment
+        android:id="@+id/nav_guide"
+        android:name="com.example.navigationdrawer.GuideFragment"
+        android:label="@string/nav_guide"
+        tools:layout="@layout/fragment_guide" />
+</navigation>

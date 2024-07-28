@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">Navigation Drawer</string>
+    <string name="app_name">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_help_support">Help &amp; Support</string>
+    <string name="nav_payment_settings">UPI &amp; Payment Settings</string>
+    <string name="nav_order_bookings">Order &amp; Bookings</string>
+    <string name="nav_profile_settings">Profile Settings</string>
+    <string name="nav_refer_win">Refer &amp; Win</string>
+    <string name="nav_digilocker">DigiLocker</string>
+    <string name="nav_guide">Your Paytm Guide</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
 </resources>

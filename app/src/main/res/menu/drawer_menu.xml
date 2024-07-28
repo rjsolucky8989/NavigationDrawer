@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_help_support"
+            android:icon="@drawable/ic_help_support"
+            android:title="Help &amp; Support" />
+        <item
+            android:id="@+id/nav_payment_settings"
+            android:icon="@drawable/settings"
+            android:title="UPI &amp; Payment Settings" />
+        <item
+            android:id="@+id/nav_order_bookings"
+            android:icon="@drawable/ic_order_booking"
+            android:title="Order &amp; Bookings" />
+        <item
+            android:id="@+id/nav_profile_settings"
+            android:icon="@drawable/ic_profile_setting"
+            android:title="Profile Settings" />
+        <item
+            android:id="@+id/nav_refer_win"
+            android:icon="@drawable/ic_refer_win"
+            android:title="Refer &amp; Win" />
+        <item
+            android:id="@+id/nav_digilocker"
+            android:icon="@drawable/ic_digilocker"
+            android:title="DigiLocker" />
+        <item
+            android:id="@+id/nav_guide"
+            android:icon="@drawable/ic_guide"
+            android:title="Your Paytm Guide" />
+    </group>
+</menu>
